@@ -24,7 +24,6 @@ func NewConfiguration() *Configuration {
 
 func (c *Configuration) load() {
 	c.getPort()
-	c.getCredentials()
 }
 
 func (c *Configuration) getPort() {
